@@ -30,3 +30,4 @@ class GithubHook < Sinatra::Base
 		end
 	end
 end
+

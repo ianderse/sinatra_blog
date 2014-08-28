@@ -1,11 +1,11 @@
 require 'sinatra/base'
 require 'rack'
-require 'github_hook'
+#require 'github_hook'
 require 'ostruct'
 require 'time'
 
 class Blog < Sinatra::Base
-	use GithubHook
+	#use GithubHook
 
 	set :root, File.expand_path('../../', __FILE__)
 	set :articles, []
